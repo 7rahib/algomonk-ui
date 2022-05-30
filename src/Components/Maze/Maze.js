@@ -2,8 +2,10 @@ import React from 'react';
 import './Maze.css'
 const Maze = () => {
     return (
-        <div className='maze'>
-            <div></div>
+        <div className='min-h-screen'>
+            <div className='maze'>
+                <div></div>
+            </div>
         </div>
     );
 };

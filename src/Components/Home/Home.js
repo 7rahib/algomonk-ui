@@ -1,10 +1,12 @@
 import React from 'react';
-import Maze from '../Maze/Maze';
+import AlgorithmList from './AlgorithmList';
+import Banner from './Banner';
 
 const Home = () => {
     return (
-        <div>
-            <Maze></Maze>
+        <div className='min-h-screen'>
+            <Banner></Banner>
+            <AlgorithmList></AlgorithmList>
         </div>
     );
 };
