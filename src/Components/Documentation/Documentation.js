@@ -1,9 +1,10 @@
 import React from 'react';
+import AlgorithmList from '../Home/AlgorithmList';
 
 const Documentation = () => {
     return (
         <div className='min-h-screen'>
-            <h1>Hello</h1>
+            <AlgorithmList></AlgorithmList>
         </div>
     );
 };

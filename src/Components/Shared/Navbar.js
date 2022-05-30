@@ -20,7 +20,7 @@ const Navbar = () => {
                                 <li><Link to='/'>Depth-first Search</Link></li>
                             </ul>
                         </li>
-                        <li><Link to='/'>Create Maze</Link></li>
+                        <li><Link to='/maze'>Create Maze</Link></li>
                         <li><Link to='/documentation'>Read Documentation</Link></li>
                     </ul>
                 </div>
@@ -38,7 +38,7 @@ const Navbar = () => {
                             <li><Link to='/'>Depth-first Search</Link></li>
                         </ul>
                     </li>
-                    <li><Link to='/'>Create Maze</Link></li>
+                    <li><Link to='/maze'>Create Maze</Link></li>
                     <li><Link to='/documentation'>Read Documentation</Link></li>
                 </ul>
             </div>
